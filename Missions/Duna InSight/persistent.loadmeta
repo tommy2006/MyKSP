@@ -1,0 +1,14 @@
+saveMD5 = 34bebdacbcbba904630e22c6ddb7c2ed
+id = 95fd5801-ed78-485b-8c16-3a3e4aa0644c
+title = Duna InSight
+briefing = 
+author = 
+hardIcon = False
+difficulty = Intermediate
+vesselCount = 1
+nodeCount = 5
+startUT = 0
+missionExpansionVersion = 1.4.0
+actionModules = ActionCreateVessel
+actionModules = ActionCreateLaunchSite
+actionModules = ActionDialogMessage

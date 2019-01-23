@@ -1,0 +1,114 @@
+ship = Untitled Space Craft
+version = 1.4.5
+description = 
+type = SPH
+size = 2.00000048,0.0700082779,3.99305725
+steamPublishedFileId = 0
+persistentId = 3517912275
+rot = 0,0,0,0
+missionFlag = Squad/Flags/default
+vesselType = Debris
+PART
+{
+	part = structuralPanel2_4294584660
+	partName = Part
+	persistentId = 2233107086
+	pos = 0.00435538543,10.1445541,0.375511914
+	attPos = 0,0,0
+	attPos0 = 0.00435538543,10.1445541,0.375511914
+	rot = 0,0,0,1
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = 0.707106769,0,0,0.707106769
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = structuralPanel2_4294583288
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = structuralPanel2_4294583288
+	partName = Part
+	persistentId = 1169290195
+	pos = 0.00435547763,10.1612225,-1.61754489
+	attPos = 0,0,0
+	attPos0 = 9.22009349E-08,0.0166683197,-1.99305677
+	rot = -0.707106829,6.32202841E-08,0.707106829,-6.32202841E-08
+	attRot = 0,0,0.707106709,0.707106709
+	attRot0 = -0.707106829,6.32202841E-08,0.707106829,-6.32202841E-08
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	srfN = srfAttach,structuralPanel2_4294584660
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}

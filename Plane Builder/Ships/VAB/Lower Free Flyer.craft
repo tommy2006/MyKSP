@@ -1,0 +1,3411 @@
+ship = Lower Free Flyer
+version = 1.4.5
+description = 
+type = VAB
+size = 2.06560755,3.07511139,2.0811038
+steamPublishedFileId = 0
+persistentId = 824713777
+rot = 0,0,0,0
+missionFlag = Squad/Flags/default
+vesselType = Debris
+PART
+{
+	part = HECS2.ProbeCore_4294537634
+	partName = Part
+	persistentId = 1732063495
+	pos = 0,15,0
+	attPos = 0,0,0
+	attPos0 = 0,15,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = trussPiece1x_4294529972
+	link = trussPiece1x_4294529900
+	link = trussPiece1x_4294529868
+	link = trussPiece1x_4294529836
+	link = trussPiece1x_4294529804
+	link = trussPiece1x_4294529772
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDataTransmitter
+		isEnabled = True
+		xmitIncomplete = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartTransmissionAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCommand
+		isEnabled = True
+		hibernation = False
+		hibernateOnWarp = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			MakeReferenceToggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			HibernateToggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleReactionWheel
+		isEnabled = True
+		actuatorModeCycle = 0
+		authorityLimiter = 100
+		stateString = Active
+		stagingEnabled = True
+		WheelState = Active
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			CycleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			Activate
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			Deactivate
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			Toggle
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSAS
+		isEnabled = True
+		standaloneToggle = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleKerbNetAccess
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			OpenKerbNetAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleScienceContainer
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			CollectAllAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTripLogger
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		Log
+		{
+			flight = 0
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 1000
+		maxAmount = 1000
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+}
+PART
+{
+	part = trussPiece1x_4294529972
+	partName = Part
+	persistentId = 663942773
+	pos = 0.179214031,14.9998398,0.127741888
+	attPos = 1.30406928,0,-0.497420728
+	attPos0 = -1.12485528,-0.000160217285,0.625162601
+	rot = 0.612372398,0.353553385,-0.353553265,0.612372577
+	attRot = 0,0,0,1
+	attRot0 = 0.612372339,-0.353553534,0.353553444,0.612372518
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = structuralPanel1_4294504094
+	sym = trussPiece1x_4294529900
+	sym = trussPiece1x_4294529868
+	sym = trussPiece1x_4294529836
+	sym = trussPiece1x_4294529804
+	sym = trussPiece1x_4294529772
+	srfN = srfAttach,HECS2.ProbeCore_4294537634
+	attN = top,structuralPanel1_4294504094_0|0.5592728|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece1x_4294529900
+	partName = Part
+	persistentId = 972814081
+	pos = -0.021020703,14.9998398,0.219074845
+	attPos = 2.51457095E-07,0,-1.06765974
+	attPos0 = -0.0210209545,-0.000160217285,1.28673458
+	rot = 0.707106709,-7.73672042E-08,8.93454697E-08,0.707106888
+	attRot = 0,0,0,1
+	attRot0 = 0.707106709,-7.73672042E-08,8.93454697E-08,0.707106888
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = structuralPanel1_4294504496
+	sym = trussPiece1x_4294529972
+	sym = trussPiece1x_4294529868
+	sym = trussPiece1x_4294529836
+	sym = trussPiece1x_4294529804
+	sym = trussPiece1x_4294529772
+	srfN = srfAttach,HECS2.ProbeCore_4294537634
+	attN = top,structuralPanel1_4294504496_0|0.5592728|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece1x_4294529868
+	partName = Part
+	persistentId = 2581145983
+	pos = 0.200234726,14.9998398,-0.091332987
+	attPos = -0.903599799,0,-0.752904832
+	attPos0 = 1.10383451,-0.000160217285,0.66157186
+	rot = 0.353553414,0.612372518,-0.612372339,0.353553504
+	attRot = 0,0,0,1
+	attRot0 = 0.612372458,0.353553414,-0.353553325,0.612372577
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = structuralPanel1_4294504062
+	sym = trussPiece1x_4294529972
+	sym = trussPiece1x_4294529900
+	sym = trussPiece1x_4294529836
+	sym = trussPiece1x_4294529804
+	sym = trussPiece1x_4294529772
+	srfN = srfAttach,HECS2.ProbeCore_4294537634
+	attN = top,structuralPanel1_4294504062_0|0.5592728|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece1x_4294529836
+	partName = Part
+	persistentId = 2023605881
+	pos = 0.0210206844,14.9998398,-0.219074845
+	attPos = -1.10383463,0,0.406087875
+	attPos0 = 1.12485528,-0.000160217285,-0.625162721
+	rot = 5.84368536E-08,0.707106888,-0.707106709,4.6458581E-08
+	attRot = 0,0,0,1
+	attRot0 = 0.353553414,0.612372518,-0.612372339,0.353553504
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = structuralPanel1_4294504030
+	sym = trussPiece1x_4294529972
+	sym = trussPiece1x_4294529900
+	sym = trussPiece1x_4294529868
+	sym = trussPiece1x_4294529804
+	sym = trussPiece1x_4294529772
+	srfN = srfAttach,HECS2.ProbeCore_4294537634
+	attN = top,structuralPanel1_4294504030_0|0.5592728|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece1x_4294529804
+	partName = Part
+	persistentId = 249651871
+	pos = -0.179214045,14.9998398,-0.127741888
+	attPos = -0.20023492,0,1.15899277
+	attPos0 = 0.02102088,-0.000160217285,-1.2867347
+	rot = -0.353553325,0.612372577,-0.612372398,-0.353553414
+	attRot = 0,0,0,1
+	attRot0 = 5.28452304E-08,0.707106948,-0.707106709,4.08669578E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = structuralPanel1_4294503998
+	sym = trussPiece1x_4294529972
+	sym = trussPiece1x_4294529900
+	sym = trussPiece1x_4294529868
+	sym = trussPiece1x_4294529836
+	sym = trussPiece1x_4294529772
+	srfN = srfAttach,HECS2.ProbeCore_4294537634
+	attN = top,structuralPanel1_4294503998_0|0.5592728|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = trussPiece1x_4294529772
+	partName = Part
+	persistentId = 1643673442
+	pos = -0.200234756,14.9998398,0.0913329348
+	attPos = 0.903599501,0,0.752905071
+	attPos0 = -1.10383427,-0.000160217285,-0.661572158
+	rot = -0.612372339,0.353553563,-0.353553474,-0.612372458
+	attRot = 0,0,0,1
+	attRot0 = -0.353553236,0.612372637,-0.612372458,-0.353553355
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = structuralPanel1_4294503966
+	sym = trussPiece1x_4294529972
+	sym = trussPiece1x_4294529900
+	sym = trussPiece1x_4294529868
+	sym = trussPiece1x_4294529836
+	sym = trussPiece1x_4294529804
+	srfN = srfAttach,HECS2.ProbeCore_4294537634
+	attN = top,structuralPanel1_4294503966_0|0.5592728|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel1_4294504496
+	partName = Part
+	persistentId = 2247744531
+	pos = -0.0210210923,14.0340939,0.805848181
+	attPos = -2.73404481E-07,3.57627869E-07,0.965745926
+	attPos0 = 6.09404083E-09,0.586772799,1.1920929E-07
+	rot = -0.707106769,9.90003457E-09,-1.37698066E-08,0.707106829
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = -1,1.17883658E-07,-8.46991366E-09,1.49011598E-07
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = structuralPanel1_4294500348
+	link = Decoupler.0_4294474590
+	sym = structuralPanel1_4294504094
+	sym = structuralPanel1_4294504062
+	sym = structuralPanel1_4294504030
+	sym = structuralPanel1_4294503998
+	sym = structuralPanel1_4294503966
+	attN = top,trussPiece1x_4294529900_0|0.0275|0
+	attN = bottom,Decoupler.0_4294474590_0|-0.0275|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel1_4294504094
+	partName = Part
+	persistentId = 4156543502
+	pos = 0.687375069,14.0340929,0.421129405
+	attPos = -3.57627869E-07,5.36441803E-07,0.965746582
+	attPos0 = 5.96046448E-08,0.586773038,1.1920924E-07
+	rot = -0.612372458,0.353553355,0.353553414,0.612372398
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = -1,1.19209261E-07,0,7.45057918E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = structuralPanel1_4294498680
+	link = Decoupler.0_4294474000
+	sym = structuralPanel1_4294504496
+	sym = structuralPanel1_4294504062
+	sym = structuralPanel1_4294504030
+	sym = structuralPanel1_4294503998
+	sym = structuralPanel1_4294503966
+	attN = top,trussPiece1x_4294529972_0|0.0275|0
+	attN = bottom,Decoupler.0_4294474000_0|-0.0275|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel1_4294504062
+	partName = Part
+	persistentId = 1802400502
+	pos = 0.708395898,14.0340939,-0.384719491
+	attPos = -2.38418565E-07,-5.96046448E-08,0.965745986
+	attPos0 = -8.9406953E-08,0.586773098,8.9406953E-08
+	rot = -0.353553355,0.612372518,0.612372458,0.353553385
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = -1,1.19209275E-07,-1.49011594E-08,2.16066809E-07
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = structuralPanel1_4294498648
+	link = Decoupler.0_4294473918
+	link = structuralPanel2_4294473072
+	sym = structuralPanel1_4294504496
+	sym = structuralPanel1_4294504094
+	sym = structuralPanel1_4294504030
+	sym = structuralPanel1_4294503998
+	sym = structuralPanel1_4294503966
+	attN = top,trussPiece1x_4294529868_0|0.0275|0
+	attN = bottom,Decoupler.0_4294473918_0|-0.0275|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel1_4294504030
+	partName = Part
+	persistentId = 2661782768
+	pos = 0.021021083,14.0340929,-0.805849075
+	attPos = -2.68220788E-07,4.76837158E-07,0.965746582
+	attPos0 = -5.96046199E-08,0.586772919,1.78813863E-07
+	rot = 2.72983947E-08,0.707106829,0.707106769,-3.63935406E-08
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = -1,1.04308128E-07,0,8.94069672E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = structuralPanel1_4294498616
+	link = Decoupler.0_4294473836
+	sym = structuralPanel1_4294504496
+	sym = structuralPanel1_4294504094
+	sym = structuralPanel1_4294504062
+	sym = structuralPanel1_4294503998
+	sym = structuralPanel1_4294503966
+	attN = top,trussPiece1x_4294529836_0|0.0275|0
+	attN = bottom,Decoupler.0_4294473836_0|-0.0275|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel1_4294503998
+	partName = Part
+	persistentId = 1148400357
+	pos = -0.687375486,14.0340929,-0.421129346
+	attPos = -2.75266984E-07,6.55651093E-07,0.965746522
+	attPos0 = 6.98395386E-09,0.586772978,2.9802311E-07
+	rot = 0.353553414,0.612372458,0.612372398,-0.353553474
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = -1,1.17883665E-07,-8.46991455E-09,1.1920929E-07
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = structuralPanel1_4294498584
+	link = Decoupler.0_4294473754
+	sym = structuralPanel1_4294504496
+	sym = structuralPanel1_4294504094
+	sym = structuralPanel1_4294504062
+	sym = structuralPanel1_4294504030
+	sym = structuralPanel1_4294503966
+	attN = top,trussPiece1x_4294529804_0|0.0275|0
+	attN = bottom,Decoupler.0_4294473754_0|-0.0275|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel1_4294503966
+	partName = Part
+	persistentId = 1032791252
+	pos = -0.708396673,14.0340929,0.38471964
+	attPos = -2.68220731E-07,7.15255737E-07,0.965746641
+	attPos0 = 0,0.586773038,2.08616171E-07
+	rot = 0.612372398,0.353553444,0.353553474,-0.612372518
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = -1,1.34110422E-07,-1.49011576E-08,1.78813892E-07
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = structuralPanel1_4294498552
+	link = Decoupler.0_4294473672
+	sym = structuralPanel1_4294504496
+	sym = structuralPanel1_4294504094
+	sym = structuralPanel1_4294504062
+	sym = structuralPanel1_4294504030
+	sym = structuralPanel1_4294503998
+	attN = top,trussPiece1x_4294529772_0|0.0275|0
+	attN = bottom,Decoupler.0_4294473672_0|-0.0275|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel1_4294500348
+	partName = Part
+	persistentId = 2447425734
+	pos = -0.0234919712,14.9903364,0.821996272
+	attPos = 0,0,0
+	attPos0 = -0.00247091055,-0.0161478613,0.956242204
+	rot = -0.5,-0.5,-0.50000006,-0.49999997
+	attRot = -0.707106709,-0.707106709,0,0
+	attRot0 = -0.707106829,7.79154163E-09,-0.707106829,-9.90952742E-09
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = structuralPanel1_4294494526
+	link = Decoupler.0_4294478208
+	sym = structuralPanel1_4294498680
+	sym = structuralPanel1_4294498648
+	sym = structuralPanel1_4294498616
+	sym = structuralPanel1_4294498584
+	sym = structuralPanel1_4294498552
+	srfN = srfAttach,structuralPanel1_4294504496
+	attN = top,Decoupler.0_4294478208_0|0.0275|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel1_4294498680
+	partName = Part
+	persistentId = 2495023498
+	pos = 0.700124502,14.9903364,0.431343138
+	attPos = 0,0,0
+	attPos0 = -0.00247067516,-0.0161479451,0.956242859
+	rot = -0.683012724,-0.683012605,-0.183012709,-0.183012813
+	attRot = -0.707106709,-0.707106709,0,0
+	attRot0 = -0.707106829,9.25839228E-09,-0.707106769,1.20343682E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = structuralPanel1_4294494494
+	link = Decoupler.0_4294476718
+	sym = structuralPanel1_4294500348
+	sym = structuralPanel1_4294498648
+	sym = structuralPanel1_4294498616
+	sym = structuralPanel1_4294498584
+	sym = structuralPanel1_4294498552
+	srfN = srfAttach,structuralPanel1_4294504094
+	attN = top,Decoupler.0_4294476718_0|0.0275|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel1_4294498648
+	partName = Part
+	persistentId = 913691882
+	pos = 0.723616064,14.9903364,-0.390653312
+	attPos = 0,0,0
+	attPos0 = -0.0024712102,-0.0161480308,0.956242204
+	rot = -0.683012843,-0.683012724,0.183012813,0.183012664
+	attRot = -0.707106709,-0.707106709,0,0
+	attRot0 = -0.707106888,-3.86862844E-08,-0.707106769,-6.10804474E-09
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = structuralPanel1_4294494462
+	link = Decoupler.0_4294476636
+	sym = structuralPanel1_4294500348
+	sym = structuralPanel1_4294498680
+	sym = structuralPanel1_4294498616
+	sym = structuralPanel1_4294498584
+	sym = structuralPanel1_4294498552
+	srfN = srfAttach,structuralPanel1_4294504062
+	attN = top,Decoupler.0_4294476636_0|0.0275|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel1_4294498616
+	partName = Part
+	persistentId = 54133748
+	pos = 0.0234921053,14.9903355,-0.821996748
+	attPos = 0,0,0
+	attPos0 = -0.00247103116,-0.0161478575,0.956242263
+	rot = -0.49999997,-0.50000006,0.50000006,0.49999994
+	attRot = -0.707106709,-0.707106709,0,0
+	attRot0 = -0.707106888,-3.41667601E-08,-0.707106769,1.94849221E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = structuralPanel1_4294495238
+	link = Decoupler.0_4294476554
+	sym = structuralPanel1_4294500348
+	sym = structuralPanel1_4294498680
+	sym = structuralPanel1_4294498648
+	sym = structuralPanel1_4294498584
+	sym = structuralPanel1_4294498552
+	srfN = srfAttach,structuralPanel1_4294504030
+	attN = top,Decoupler.0_4294476554_0|0.0275|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel1_4294498584
+	partName = Part
+	persistentId = 4187935303
+	pos = -0.700124621,14.9903345,-0.431343019
+	attPos = 0,0,0
+	attPos0 = -0.00247091218,-0.0161476955,0.956241965
+	rot = -0.183012649,-0.183012784,0.683012843,0.683012724
+	attRot = -0.707106709,-0.707106709,0,0
+	attRot0 = -0.707106829,-5.71622891E-08,-0.707106769,-6.11893043E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = structuralPanel1_4294494430
+	link = Decoupler.0_4294476472
+	sym = structuralPanel1_4294500348
+	sym = structuralPanel1_4294498680
+	sym = structuralPanel1_4294498648
+	sym = structuralPanel1_4294498616
+	sym = structuralPanel1_4294498552
+	srfN = srfAttach,structuralPanel1_4294503998
+	attN = top,Decoupler.0_4294476472_0|0.0275|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel1_4294498552
+	partName = Part
+	persistentId = 1221955438
+	pos = -0.723616719,14.9903355,0.390654087
+	attPos = 0,0,0
+	attPos0 = -0.00247082184,-0.0161479823,0.956242204
+	rot = 0.183012739,0.183012635,0.683012843,0.683012724
+	attRot = -0.707106709,-0.707106709,0,0
+	attRot0 = -0.707106888,-4.65112677E-08,-0.707106769,-4.24569997E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = structuralPanel1_4294494398
+	link = Decoupler.0_4294476390
+	sym = structuralPanel1_4294500348
+	sym = structuralPanel1_4294498680
+	sym = structuralPanel1_4294498648
+	sym = structuralPanel1_4294498616
+	sym = structuralPanel1_4294498584
+	srfN = srfAttach,structuralPanel1_4294503966
+	attN = top,Decoupler.0_4294476390_0|0.0275|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel1_4294495238
+	partName = Part
+	persistentId = 4248051852
+	pos = 0.0404890776,15.945693,-0.83918494
+	attPos = 0,0,0
+	attPos0 = 0.955357134,0.0171883535,-0.0169971045
+	rot = 0.5,0.5,-0.49999997,-0.5
+	attRot = 0,0,-0.707106769,0.707106769
+	attRot0 = 7.83266287E-08,-1.19209275E-07,7.64418857E-08,-1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = Decoupler.0_4294480412
+	sym = structuralPanel1_4294494526
+	sym = structuralPanel1_4294494494
+	sym = structuralPanel1_4294494462
+	sym = structuralPanel1_4294494430
+	sym = structuralPanel1_4294494398
+	srfN = srfAttach,structuralPanel1_4294498616
+	attN = top,Decoupler.0_4294480412_0|0.0275|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel1_4294494526
+	partName = Part
+	persistentId = 1091696911
+	pos = -0.0404894575,15.945694,0.839184761
+	attPos = 0,0,0
+	attPos0 = 0.955357552,0.0171882734,-0.0169973355
+	rot = 0.499999911,0.50000006,0.500000179,0.499999911
+	attRot = 0,0,-0.707106769,0.707106769
+	attRot0 = 1.83370581E-08,-1.49011598E-07,3.85311978E-08,-1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = structuralPanel2_4294489358
+	link = Decoupler.0_4294481002
+	sym = structuralPanel1_4294495238
+	sym = structuralPanel1_4294494494
+	sym = structuralPanel1_4294494462
+	sym = structuralPanel1_4294494430
+	sym = structuralPanel1_4294494398
+	srfN = srfAttach,structuralPanel1_4294500348
+	attN = top,Decoupler.0_4294481002_0|0.0275|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel1_4294494494
+	partName = Part
+	persistentId = 2110035680
+	pos = 0.706511736,15.945694,0.454657197
+	attPos = 0,0,0
+	attPos0 = 0.955357015,0.0171885081,-0.0169971641
+	rot = 0.683012724,0.683012664,0.183012754,0.183012739
+	attRot = 0,0,-0.707106769,0.707106769
+	attRot0 = 7.4660889E-08,-5.96046448E-08,3.58194825E-08,-1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = Decoupler.0_4294480330
+	sym = structuralPanel1_4294495238
+	sym = structuralPanel1_4294494526
+	sym = structuralPanel1_4294494462
+	sym = structuralPanel1_4294494430
+	sym = structuralPanel1_4294494398
+	srfN = srfAttach,structuralPanel1_4294498680
+	attN = top,Decoupler.0_4294480330_0|0.0275|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel1_4294494462
+	partName = Part
+	persistentId = 1488545197
+	pos = 0.747000754,15.945694,-0.384526849
+	attPos = 0,0,0
+	attPos0 = 0.955357194,0.017188428,-0.0169975776
+	rot = 0.683012843,0.683012724,-0.183012754,-0.183012754
+	attRot = 0,0,-0.707106769,0.707106769
+	attRot0 = 3.68784612E-08,-1.19209275E-07,-5.26836219E-09,-1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = Decoupler.0_4294480248
+	sym = structuralPanel1_4294495238
+	sym = structuralPanel1_4294494526
+	sym = structuralPanel1_4294494494
+	sym = structuralPanel1_4294494430
+	sym = structuralPanel1_4294494398
+	srfN = srfAttach,structuralPanel1_4294498648
+	attN = top,Decoupler.0_4294480248_0|0.0275|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel1_4294494430
+	partName = Part
+	persistentId = 321260569
+	pos = -0.706511497,15.9456911,-0.454657018
+	attPos = 0,0,0
+	attPos0 = 0.955356956,0.0171883907,-0.0169970319
+	rot = 0.183012769,0.183012605,-0.683012843,-0.683012724
+	attRot = 0,0,-0.707106769,0.707106769
+	attRot0 = 2.27377353E-08,-1.49011612E-07,-9.28814075E-08,-1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = Decoupler.0_4294480166
+	sym = structuralPanel1_4294495238
+	sym = structuralPanel1_4294494526
+	sym = structuralPanel1_4294494494
+	sym = structuralPanel1_4294494462
+	sym = structuralPanel1_4294494398
+	srfN = srfAttach,structuralPanel1_4294498584
+	attN = top,Decoupler.0_4294480166_0|0.0275|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel1_4294494398
+	partName = Part
+	persistentId = 707243650
+	pos = -0.747001052,15.945693,0.384528548
+	attPos = 0,0,0
+	attPos0 = 0.955357313,0.0171885658,-0.0169972312
+	rot = -0.183012635,-0.183012664,-0.683012784,-0.683012784
+	attRot = 0,0,-0.707106769,0.707106769
+	attRot0 = -3.46056961E-09,-1.78813892E-07,4.56073721E-08,-1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = Decoupler.0_4294480084
+	sym = structuralPanel1_4294495238
+	sym = structuralPanel1_4294494526
+	sym = structuralPanel1_4294494494
+	sym = structuralPanel1_4294494462
+	sym = structuralPanel1_4294494430
+	srfN = srfAttach,structuralPanel1_4294498552
+	attN = top,Decoupler.0_4294480084_0|0.0275|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = structuralPanel2_4294489358
+	partName = Part
+	persistentId = 2593792632
+	pos = 0.00833292492,16.3867016,-0.0182621479
+	attPos = 2.38418579E-07,0.158701777,-1.11758709E-07
+	attPos0 = 0.441007197,-1.01614857,0.0488224998
+	rot = 0.707106829,-9.82882398E-08,-0.707106948,6.55937811E-08
+	attRot = 0,0,0,1
+	attRot0 = 0.707106769,-0.707106888,9.24008461E-08,-1.81833784E-07
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = Decoupler.1p5_4294309946
+	srfN = srfAttach,structuralPanel1_4294494526
+	attN = bottom,Decoupler.1p5_4294309946_0|-0.0275|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = Decoupler.0_4294481002
+	partName = Part
+	persistentId = 1668920059
+	pos = -0.040489696,15.945694,0.899184823
+	attPos = 0,0,0
+	attPos0 = -4.623673E-09,0.0600000024,-2.36218185E-07
+	rot = -0.707106769,1.18349277E-08,-1.18349135E-08,0.707106829
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = -0.707106709,3.75938605E-08,-0.707106948,9.90952387E-09
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = 0
+	sqor = 0
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Decoupler.0_4294480412
+	sym = Decoupler.0_4294480330
+	sym = Decoupler.0_4294480248
+	sym = Decoupler.0_4294480166
+	sym = Decoupler.0_4294480084
+	attN = top,structuralPanel1_4294494526_0|0.0325|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = Decoupler.0_4294480412
+	partName = Part
+	persistentId = 1362894180
+	pos = 0.0404893756,15.945693,-0.899184763
+	attPos = 0,0,0
+	attPos0 = -9.17293086E-09,0.059999831,-2.88624108E-07
+	rot = -1.20451404E-07,0.707106709,0.707106888,-1.41524822E-07
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = -0.707106709,7.22972189E-08,-0.707106948,-5.77968251E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = 0
+	sqor = 0
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Decoupler.0_4294481002
+	sym = Decoupler.0_4294480330
+	sym = Decoupler.0_4294480248
+	sym = Decoupler.0_4294480166
+	sym = Decoupler.0_4294480084
+	attN = top,structuralPanel1_4294495238_0|0.0325|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = Decoupler.0_4294480330
+	partName = Part
+	persistentId = 35896279
+	pos = 0.758473039,15.945694,0.484657347
+	attPos = 0,0,0
+	attPos0 = -4.29832037E-09,0.0599999391,-1.10249907E-07
+	rot = -0.612372458,0.353553414,0.353553295,0.612372279
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = -0.70710665,1.10480379E-07,-0.707106948,1.3403529E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = 0
+	sqor = 0
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Decoupler.0_4294481002
+	sym = Decoupler.0_4294480412
+	sym = Decoupler.0_4294480248
+	sym = Decoupler.0_4294480166
+	sym = Decoupler.0_4294480084
+	attN = top,structuralPanel1_4294494494_0|0.0325|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = Decoupler.0_4294480248
+	partName = Part
+	persistentId = 1714198123
+	pos = 0.798962653,15.9456949,-0.414526641
+	attPos = 0,0,0
+	attPos0 = 8.35097637E-07,0.0600001439,-4.12806799E-07
+	rot = -0.353553504,0.612372577,0.612372518,0.353553176
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = -0.707106709,1.43898319E-07,-0.707106948,2.11799267E-09
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = 0
+	sqor = 0
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Decoupler.0_4294481002
+	sym = Decoupler.0_4294480412
+	sym = Decoupler.0_4294480330
+	sym = Decoupler.0_4294480166
+	sym = Decoupler.0_4294480084
+	attN = top,structuralPanel1_4294494462_0|0.0325|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = Decoupler.0_4294480166
+	partName = Part
+	persistentId = 2902673646
+	pos = -0.758472919,15.9456911,-0.48465699
+	attPos = 0,0,0
+	attPos0 = -1.08063475E-07,0.0600000136,6.23331289E-08
+	rot = 0.353553534,0.612372518,0.612372458,-0.353553444
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = -0.707106709,1.22295404E-07,-0.707106888,-1.71476646E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = 0
+	sqor = 0
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Decoupler.0_4294481002
+	sym = Decoupler.0_4294480412
+	sym = Decoupler.0_4294480330
+	sym = Decoupler.0_4294480248
+	sym = Decoupler.0_4294480084
+	attN = top,structuralPanel1_4294494430_0|0.0325|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = Decoupler.0_4294480084
+	partName = Part
+	persistentId = 3571681406
+	pos = -0.798962951,15.945693,0.4145284
+	attPos = 0,0,0
+	attPos0 = -5.47284351E-09,0.0600002483,-1.79229232E-07
+	rot = 0.612372398,0.353553295,0.353553563,-0.612372518
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = -0.707106709,4.52329516E-08,-0.707106948,3.01124921E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = 0
+	sqor = 0
+	sepI = 0
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Decoupler.0_4294481002
+	sym = Decoupler.0_4294480412
+	sym = Decoupler.0_4294480330
+	sym = Decoupler.0_4294480248
+	sym = Decoupler.0_4294480166
+	attN = top,structuralPanel1_4294494398_0|0.0325|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = Decoupler.0_4294478208
+	partName = Part
+	persistentId = 3036270443
+	pos = -0.0234919712,14.9903364,0.881996274
+	attPos = 0,0,0
+	attPos0 = -1.79717047E-10,0.0600000024,1.73481551E-09
+	rot = -0.707106769,1.18349277E-08,-1.18349135E-08,0.707106829
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = 0.707106829,-5.18732683E-08,0.707106829,3.03024166E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 1
+	resPri = 0
+	dstg = 1
+	sidx = 0
+	sqor = 1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Decoupler.0_4294476718
+	sym = Decoupler.0_4294476636
+	sym = Decoupler.0_4294476554
+	sym = Decoupler.0_4294476472
+	sym = Decoupler.0_4294476390
+	attN = top,structuralPanel1_4294500348_0|0.0325|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = Decoupler.0_4294476718
+	partName = Part
+	persistentId = 2510511927
+	pos = 0.752086043,14.9903364,0.461343229
+	attPos = 0,0,0
+	attPos0 = -5.77979193E-08,0.060000103,-1.00352757E-07
+	rot = -0.612372518,0.353553414,0.353553355,0.612372398
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = 0.707106769,-3.03317904E-08,0.707106829,7.52546185E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 1
+	resPri = 0
+	dstg = 1
+	sidx = 0
+	sqor = 1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Decoupler.0_4294478208
+	sym = Decoupler.0_4294476636
+	sym = Decoupler.0_4294476554
+	sym = Decoupler.0_4294476472
+	sym = Decoupler.0_4294476390
+	attN = top,structuralPanel1_4294498680_0|0.0325|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = Decoupler.0_4294476636
+	partName = Part
+	persistentId = 1412805537
+	pos = 0.775577903,14.9903364,-0.420653522
+	attPos = 0,0,0
+	attPos0 = -1.23010224E-07,0.0600001737,-4.67693155E-08
+	rot = -0.353553474,0.612372696,0.612372398,0.353553325
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = 0.707106829,2.28812311E-08,0.707106829,-5.35232481E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 1
+	resPri = 0
+	dstg = 1
+	sidx = 0
+	sqor = 1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Decoupler.0_4294478208
+	sym = Decoupler.0_4294476718
+	sym = Decoupler.0_4294476554
+	sym = Decoupler.0_4294476472
+	sym = Decoupler.0_4294476390
+	attN = top,structuralPanel1_4294498648_0|0.0325|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = Decoupler.0_4294476554
+	partName = Part
+	persistentId = 2393302947
+	pos = 0.0234920997,14.9903355,-0.881996751
+	attPos = 0,0,0
+	attPos0 = -6.08504394E-08,0.0600000098,-4.08681577E-09
+	rot = -4.66944279E-08,0.707106769,0.707106829,-8.88412615E-08
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = 0.707106829,-1.82809252E-08,0.707106829,9.34777091E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 1
+	resPri = 0
+	dstg = 1
+	sidx = 0
+	sqor = 1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Decoupler.0_4294478208
+	sym = Decoupler.0_4294476718
+	sym = Decoupler.0_4294476636
+	sym = Decoupler.0_4294476472
+	sym = Decoupler.0_4294476390
+	attN = top,structuralPanel1_4294498616_0|0.0325|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = Decoupler.0_4294476472
+	partName = Part
+	persistentId = 3001729318
+	pos = -0.752086163,14.9903345,-0.46134305
+	attPos = 0,0,0
+	attPos0 = -1.00424948E-08,0.0600002185,8.39278727E-08
+	rot = 0.353553474,0.612372458,0.612372518,-0.353553504
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = 0.707106829,-1.94668868E-08,0.707106769,3.07688559E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 1
+	resPri = 0
+	dstg = 1
+	sidx = 0
+	sqor = 1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Decoupler.0_4294478208
+	sym = Decoupler.0_4294476718
+	sym = Decoupler.0_4294476636
+	sym = Decoupler.0_4294476554
+	sym = Decoupler.0_4294476390
+	attN = top,structuralPanel1_4294498584_0|0.0325|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = Decoupler.0_4294476390
+	partName = Part
+	persistentId = 3730956509
+	pos = -0.77557838,14.9903355,0.420654178
+	attPos = 0,0,0
+	attPos0 = 1.71264716E-07,0.0600001775,4.76190749E-08
+	rot = 0.612372458,0.353553444,0.353553414,-0.612372458
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = 0.707106888,-3.7782403E-08,0.707106769,-2.13836095E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 1
+	resPri = 0
+	dstg = 1
+	sidx = 0
+	sqor = 1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Decoupler.0_4294478208
+	sym = Decoupler.0_4294476718
+	sym = Decoupler.0_4294476636
+	sym = Decoupler.0_4294476554
+	sym = Decoupler.0_4294476472
+	attN = top,structuralPanel1_4294498552_0|0.0325|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = Decoupler.0_4294474590
+	partName = Part
+	persistentId = 2206334775
+	pos = -0.0210210923,14.0340939,0.865848124
+	attPos = 0,0,0
+	attPos0 = 3.28359562E-10,-0.0599999204,2.50339127E-08
+	rot = -0.707106769,1.45873744E-14,1.42108547E-14,0.707106829
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = -5.96046235E-08,-1.67371095E-08,2.73634959E-09,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 1
+	resPri = 0
+	dstg = 1
+	sidx = 1
+	sqor = 1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Decoupler.0_4294474000
+	sym = Decoupler.0_4294473918
+	sym = Decoupler.0_4294473836
+	sym = Decoupler.0_4294473754
+	sym = Decoupler.0_4294473672
+	attN = top,structuralPanel1_4294504496_0|0.0325|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = Decoupler.0_4294474000
+	partName = Part
+	persistentId = 1652856648
+	pos = 0.739336729,14.0340929,0.451129377
+	attPos = 0,0,0
+	attPos0 = -1.25169812E-08,-0.0600000471,2.14576819E-08
+	rot = -0.612372518,0.353553325,0.353553444,0.612372339
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = -5.96046021E-08,-2.98023153E-08,-1.49011399E-08,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 1
+	resPri = 0
+	dstg = 1
+	sidx = 1
+	sqor = 1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Decoupler.0_4294474590
+	sym = Decoupler.0_4294473918
+	sym = Decoupler.0_4294473836
+	sym = Decoupler.0_4294473754
+	sym = Decoupler.0_4294473672
+	attN = top,structuralPanel1_4294504094_0|0.0325|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = Decoupler.0_4294473918
+	partName = Part
+	persistentId = 1641207221
+	pos = 0.760357678,14.0340939,-0.414719582
+	attPos = 0,0,0
+	attPos0 = -1.43051651E-08,-0.0600002259,-3.36765105E-08
+	rot = -0.353553355,0.612372518,0.612372458,0.353553385
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = -3.72528746E-08,-2.980231E-08,2.98023366E-08,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 1
+	resPri = 0
+	dstg = 1
+	sidx = 1
+	sqor = 1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Decoupler.0_4294474590
+	sym = Decoupler.0_4294474000
+	sym = Decoupler.0_4294473836
+	sym = Decoupler.0_4294473754
+	sym = Decoupler.0_4294473672
+	attN = top,structuralPanel1_4294504062_0|0.0325|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = Decoupler.0_4294473836
+	partName = Part
+	persistentId = 2034575829
+	pos = 0.0210210774,14.0340929,-0.865849316
+	attPos = 0,0,0
+	attPos0 = 8.79385106E-11,-0.0600001737,8.46386712E-08
+	rot = 4.10682013E-08,0.707106829,0.707106769,-2.64934954E-08
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = -5.96046235E-08,-1.67371113E-08,2.73634249E-09,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 1
+	resPri = 0
+	dstg = 1
+	sidx = 1
+	sqor = 1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Decoupler.0_4294474590
+	sym = Decoupler.0_4294474000
+	sym = Decoupler.0_4294473918
+	sym = Decoupler.0_4294473754
+	sym = Decoupler.0_4294473672
+	attN = top,structuralPanel1_4294504030_0|0.0325|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = Decoupler.0_4294473754
+	partName = Part
+	persistentId = 3175188259
+	pos = -0.739337265,14.0340929,-0.451129615
+	attPos = 0,0,0
+	attPos0 = 1.60469522E-08,-0.0600002855,2.86103603E-08
+	rot = 0.353553414,0.612372458,0.612372398,-0.353553444
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = -8.94069316E-08,1.94964613E-08,4.061945E-09,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 1
+	resPri = 0
+	dstg = 1
+	sidx = 1
+	sqor = 1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Decoupler.0_4294474590
+	sym = Decoupler.0_4294474000
+	sym = Decoupler.0_4294473918
+	sym = Decoupler.0_4294473836
+	sym = Decoupler.0_4294473672
+	attN = top,structuralPanel1_4294503998_0|0.0325|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = Decoupler.0_4294473672
+	partName = Part
+	persistentId = 569371173
+	pos = -0.760358214,14.0340929,0.414719731
+	attPos = 0,0,0
+	attPos0 = -4.23193001E-08,-0.0600001663,2.63452591E-07
+	rot = 0.612372398,0.353553414,0.353553444,-0.612372518
+	attRot = -0.707106769,0,0,0.707106769
+	attRot0 = -1.49011168E-08,1.13242698E-14,2.98023402E-08,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 1
+	resPri = 0
+	dstg = 1
+	sidx = 1
+	sqor = 1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = Decoupler.0_4294474590
+	sym = Decoupler.0_4294474000
+	sym = Decoupler.0_4294473918
+	sym = Decoupler.0_4294473836
+	sym = Decoupler.0_4294473754
+	attN = top,structuralPanel1_4294503966_0|0.0325|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = structuralPanel2_4294473072
+	partName = Part
+	persistentId = 71696656
+	pos = -0.0123849511,13.6344852,-0.0666907579
+	attPos = -0.0534992442,-0.233959675,-5.96046448E-08
+	attPos0 = 0.138468415,1.01718807,-0.399608642
+	rot = -7.4505806E-08,0.999862075,7.4505806E-08,-0.0166155845
+	attRot = 1.57673394E-08,0.24273397,1.84663609E-08,-0.970092952
+	attRot0 = 0.606413364,0.363679528,0.363679439,0.606413543
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	srfN = srfAttach,structuralPanel1_4294504062
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = Decoupler.1p5_4294309946
+	partName = Part
+	persistentId = 3457459381
+	pos = 0.00833292864,16.4892025,-0.0182621479
+	attPos = 0,0,0
+	attPos0 = -1.56462207E-07,-0.102500878,1.20806591E-08
+	rot = 5.96046448E-08,-7.62644348E-09,3.02998373E-08,1.00000012
+	attRot = 0,0,0,1
+	attRot0 = -0.707106829,5.96046448E-08,0.707106829,0
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 1
+	resPri = 0
+	dstg = 1
+	sidx = 2
+	sqor = 1
+	sepI = 1
+	attm = 0
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = bottom,structuralPanel2_4294489358_0|-0.075|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDecouple
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}

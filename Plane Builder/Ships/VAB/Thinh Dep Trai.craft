@@ -248,7 +248,7 @@ PART
 	{
 		name = ElectricCharge
 		amount = 50
-		maxAmount = 50
+		maxAmount = 100
 		flowState = True
 		isTweakable = True
 		hideFlow = False

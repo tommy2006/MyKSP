@@ -1,0 +1,14 @@
+saveMD5 = 596ac99739ad9dc4d1f7e382171c3a4e
+id = f71fb854-d4fe-4ed6-a934-3b2db227907e
+title = Drive to the Top of the Planet!
+briefing = 
+author = 
+hardIcon = False
+difficulty = Advanced
+vesselCount = 1
+nodeCount = 4
+startUT = 0
+missionExpansionVersion = 1.4.0
+actionModules = ActionCreateVessel
+actionModules = ActionCreateLaunchSite
+actionModules = ActionCreateFlag
